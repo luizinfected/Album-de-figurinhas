@@ -1,0 +1,103 @@
+body {
+  overflow: hidden;
+  background-color: #515d8b;
+  background-image: url("wpp.jpg");
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  transition: 0.5s linear;
+}
+#album {
+  width: 90%;
+  height: 80vh;
+  margin: 110px auto;
+}
+.turn-page {
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 4px solid #444;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.page {
+  background-color: #f8efdf;
+  text-align: justify;
+  width: 150%;
+  height: 100%;
+}
+.content {
+  padding: 2em;
+}
+.content img {
+  width: 50%;
+  height: auto !important;
+  max-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid #444; */
+}
+.contenttext {
+  background-color: #fff;
+  padding: 0.5em;
+  border: 3px double #444;
+}
+.login {
+  display: flex;
+  justify-content: center;
+}
+.turn-page-wrapper {
+  width: 50%;
+}
+.alpha {
+  margin: 0 auto;
+}
+.popover-body {
+  color: #000;
+}
+.popup {
+  /* max-width: 300px; */
+}
+.pop {
+  margin: 0 auto;
+}
+.background {
+  width: 40%;
+  /* background-color: #444; */
+  /* padding: 0.6em;
+  border: 4px solid #fff; */
+  border-radius: 20px;
+}
+.background img {
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #000;
+}
+.background select {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #000;
+}
+.credits {
+  width: 100%;
+  height: 550px;
+}
+.education p {
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+.education h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.credits img {
+  width: 80%;
+}
+.fades {
+  border: 150px solid #494747;
+}

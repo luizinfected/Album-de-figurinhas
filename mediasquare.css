@@ -1,0 +1,55 @@
+@media (max-width: 750px) {
+  body {
+    background-size: 300%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .fades {
+    border: 80px solid #494747;
+  }
+}
+
+@media (max-width: 500px) {
+  .turn-page-wrapper {
+    width: 100vh;
+  }
+  body {
+    font-size: 10px;
+  }
+  .lead {
+    font-size: 10px;
+  }
+  .content img {
+    width: 100%;
+    height: auto !important;
+    max-height: 400px;
+  }
+  .background img {
+    margin: 0 auto;
+    width: 200%;
+    border: 1px solid #000;
+  }
+  .background {
+    margin-right: 20em;
+  }
+  .education h2 {
+    font-size: 1.4em;
+  }
+  #album {
+    width: 100%;
+    height: 90vh;
+    margin: 50px auto;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  /* .fades {
+    border: 50px solid #494747;
+  } */
+}
+@media (max-width: 499px) {
+  .fades {
+    border: 90px solid #494747;
+  }
+}
